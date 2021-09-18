@@ -8,3 +8,8 @@
 ## •Once payment is done and invoice will be generated and email sent to user for payment received.The invoice will show the amount.
 
 ## •Technologies used : HTML,CSS,JAVASCRIPT,RAZORPAY
+## Demo Video
+
+
+https://user-images.githubusercontent.com/79712578/133894372-a78c8f32-8023-418b-9cd6-af7003d780f8.mp4
+
