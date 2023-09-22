@@ -12,5 +12,8 @@
 ## Demo Video
 
 
-https://user-images.githubusercontent.com/79712578/133894372-a78c8f32-8023-418b-9cd6-af7003d780f8.mp4
+
+
+https://github.com/nivi2407/PaymentGateway/assets/79712578/2ec38e75-6a1f-4cdf-83ae-2bc3a8915242
+
 
