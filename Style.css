@@ -1,14 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-*
-{
+*{
   margin: 0; 
   padding: 0; 
   box-sizing: border-box;
   position: relative;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Mukta', sans-serif;
 }
-.home
-{
+
+.home{
     position: relative;
     width: 100%;
     height: 100vh;
@@ -17,8 +16,7 @@
     justify-content: center;
     align-items: center;
 }
-.home img
-{
+.home img{
     position: absolute;
     top: 0;
     left: 0;
@@ -27,8 +25,7 @@
     object-fit: cover;
     opacity: 0.5;
 }
-header
-{
+header{
     position: absolute;
     top: 0;
     left: 0;
@@ -39,8 +36,7 @@ header
     align-items: center;
     z-index: 2;
 }
-.logo  
-{
+.logo  {
 color: #fff;
 text-decoration: none;
 font-size: 20px;
@@ -48,72 +44,65 @@ text-transform: uppercase;
 font-weight: 600;
 letter-spacing: 1px;
 }
-.nav a{
+#nav-link{
     color: #fff;
     text-decoration: none;
     padding: 10px;
 }
-.content
-{
+#nav-link:hover{
+    background-color: #1f3251;
+}
+.content{
     position: relative;
     max-width: 750px;
     text-align: center;
 }
-.home h2
-{
+.home h2{
     color: #fff;
     font-size: 50px;
 }
-.content p
-{
+.content p{
     color: #fff;
     font-size: 16px;
 }
 /*About*/
-.about
-{
+.about{
     position: relative;
     width: 100%;
     display: flex;
 }
-.about .contentBx
-{
+.about .contentBx{
     background-color: #9A3B3B;
     text-align: justify;
     padding: 70px;
     width: 50%;
 }
-.heading
-{
+.heading{
     color: #fff;
     font-size: 30px;
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-.text
-{
+.text{
     color: #fff;
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 1px;
 }
-.imgBx
-{
+.imgBx{
     
     background: linear-gradient(45deg, rgb(221 228 233 / 60%), rgb(25 50 71 / 60%)),url(bg2.jpg);
     width: 50%;
     background-size: cover;
     background-position: center;
 }
-.services
-{
+.services{
     background:#1f3251;
     padding: 100px;
     text-align: center;
 }
-.container
-{
+.container{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -121,8 +110,7 @@ letter-spacing: 1px;
     flex-wrap: wrap;
     margin-top: 60px;
 }
-.serviceBx
-{
+.serviceBx{
     position: relative;
     background:#fff;
     width: 250px;
@@ -134,56 +122,47 @@ letter-spacing: 1px;
     border: 5px solid #7badcb;
 
 }
-.serviceBx img
-{
+.serviceBx img{
     max-width: 85px;
 }
-.serviceBx h2
-{
+.serviceBx h2{
     font-weight: 500px;
     font-size: 20px;
     letter-spacing: 1px;
 }
 
-.technology
-{
-    background:#9A3B3B;
+.technology{
+    background:#6c8ab7;
     width: 100%;
     padding: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.technology .contentBx
-{
+.technology .contentBx{
     max-width: 800px;
 }
-.tech
-{
+.tech{
     max-width: 250px;
 }
-.tech img
-{
+.tech img{
     width: 100%;
 }
 
-.testimonials
-{
+.testimonials{
     position: relative;
     padding: 100px;
     background:#1f3251;
     text-align: center;
 }
-.container
-{
+.container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 40px;
     flex-wrap: wrap;
 }
-.container .contentBx
-{
+.container .contentBx{
     background:#fff;
     padding: 50px 50px;
     width: 500px;
@@ -195,28 +174,24 @@ letter-spacing: 1px;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
 }
-.contentBx h3
-{
+.contentBx h3{
     width: 100%;
     text-align: end;
     font-weight: 500;
     color: #56707c;
 }
 
-.imgBx2
-{
+.imgBx2{
     background: linear-gradient(45deg, rgb(221 228 233 / 60%), rgb(25 50 71 / 60%)),url(bg3.jpg);
     background-size: cover;
     background-position: center;
     width: 50%;
 }
 /*Contact form*/
-.inputBx
-{
+.inputBx{
     margin-bottom: 40px;
 }
-input,textarea
-{
+input,textarea{
     width: 100%;
     background:#cbbfb5;
     padding:10px 0;
@@ -232,32 +207,28 @@ input[type="submit"]{
 }
 
 /*Footer*/
-.footer
-{
+.footer{
     background: #1f3251;
     padding: 20px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.footer ul
-{
+.footer ul{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.footer li
-{
+.footer li{
     list-style: none;
 }
-.footer a
-{
+.footer a{
     text-decoration: none;
     display: inline-block;
     margin:0 10px;
 }
-.footer img
-{
+
+.footer img{
     filter:invert(1);
     max-width: 20px;
 }
