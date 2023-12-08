@@ -1,6 +1,7 @@
 
-# THE SPARKS FOUNDATION 
-## Graduate Rotational Internship Program (#GRIPSEPT21)
+THE SPARKS FOUNDATION 
+
+Graduate Rotational Internship Program (#GRIPSEPT21)
 
 **TASK-3: PAYMENT GATEWAY INTEGRATION**
 
