@@ -10,6 +10,8 @@
 
 •Technologies used : HTML,CSS,RAZORPAY
 Website ->
-![Payment_Gateway_](https://github.com/nivi2407/PaymentGateway/assets/79712578/19f62d7e-f4dc-4d2a-908e-9b8bc09711f2)
+
+
+<img src="https://github.com/nivi2407/PaymentGateway/assets/79712578/19f62d7e-f4dc-4d2a-908e-9b8bc09711f2" width="100" height="100">
 
 
