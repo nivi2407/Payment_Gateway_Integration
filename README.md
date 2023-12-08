@@ -12,6 +12,5 @@
 🚀 **Technologies Used:**
 HTML | CSS | Razorpay
 
-![Website Preview](https://github.com/nivi2407/PaymentGateway/assets/79712578/19f62d7e-f4dc-4d2a-908e-9b8bc09711f2)
 
 
