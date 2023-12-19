@@ -13,5 +13,7 @@ Graduate Rotational Internship Program (#GRIPSEPT21)
 🚀 **Technologies Used:**
 HTML | CSS | Razorpay
 
+https://github.com/nivi2407/Payment_Gateway_Integration/assets/79712578/10cba9df-ca9e-4282-a99c-cdd23d475edc
+
 
 
