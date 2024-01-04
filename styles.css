@@ -1,12 +1,37 @@
 *{
-  margin: 0; 
-  padding: 0; 
-  box-sizing: border-box;
-  position: relative;
-  font-family: 'Lato', sans-serif;
-  font-family: 'Mukta', sans-serif;
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+} 
+body{
+    font-family: 'Mukta', sans-serif;
 }
-
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #263238;
+    width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+header  {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+#nav-link:hover{
+    text-decoration: underline;
+}
 .home{
     position: relative;
     width: 100%;
@@ -23,75 +48,43 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.5;
-}
-header{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 40px 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 2;
-}
-.logo  {
-color: #fff;
-text-decoration: none;
-font-size: 20px;
-text-transform: uppercase;
-font-weight: 600;
-letter-spacing: 1px;
-}
-#nav-link{
+    opacity: 0.3;
+  }
+h1{
     color: #fff;
-    text-decoration: none;
-    padding: 10px;
-}
-#nav-link:hover{
-    background-color: #1f3251;
+    font-size: 40px;
 }
 .content{
     position: relative;
     max-width: 750px;
     text-align: center;
-}
-.home h2{
-    color: #fff;
-    font-size: 50px;
-}
-.content p{
-    color: #fff;
-    font-size: 16px;
-}
-/*About*/
+  }
+
+  /*About*/
 .about{
     position: relative;
     width: 100%;
     display: flex;
-}
-.about .contentBx{
+  }
+.redbg{
     background-color: #9A3B3B;
     text-align: justify;
-    padding: 70px;
+    padding: 40px;
     width: 50%;
-}
-.heading{
+  }
+h2{
     color: #fff;
     font-size: 30px;
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-.text{
+p{
     color: #fff;
     font-size: 16px;
     font-weight: 300;
-    letter-spacing: 1px;
 }
-.imgBx{
-    
+.imgBx1{
     background: linear-gradient(45deg, rgb(221 228 233 / 60%), rgb(25 50 71 / 60%)),url(bg2.jpg);
     width: 50%;
     background-size: cover;
@@ -99,7 +92,7 @@ letter-spacing: 1px;
 }
 .services{
     background:#1f3251;
-    padding: 100px;
+    padding: 40px;
     text-align: center;
 }
 .container{
@@ -120,21 +113,14 @@ letter-spacing: 1px;
     align-items: center;
     border-radius: 100%;
     border: 5px solid #7badcb;
-
 }
-.serviceBx img{
-    max-width: 85px;
+.icon1{
+    max-width: 65px;
 }
-.serviceBx h2{
-    font-weight: 500px;
-    font-size: 20px;
-    letter-spacing: 1px;
-}
-
 .technology{
     background:#6c8ab7;
     width: 100%;
-    padding: 100px;
+    padding: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -148,33 +134,31 @@ letter-spacing: 1px;
 .tech img{
     width: 100%;
 }
-
 .testimonials{
     position: relative;
-    padding: 100px;
+    padding: 40px;
     background:#1f3251;
     text-align: center;
 }
 .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 40px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  place-items: center;
+  flex-wrap: wrap;
 }
 .container .contentBx{
     background:#fff;
     padding: 50px 50px;
-    width: 500px;
+    width: 370px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: left;
     font-style: italic;
-    border-top-right-radius: 25px;
-    border-bottom-left-radius: 25px;
+    margin: 10px;
 }
-.contentBx h3{
+h3{
     width: 100%;
     text-align: end;
     font-weight: 500;
@@ -196,6 +180,7 @@ input,textarea{
     background:#cbbfb5;
     padding:10px 0;
     font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
     border: none;
     color: #111;
 }
@@ -205,30 +190,76 @@ input[type="submit"]{
     color: #111;
     border-radius: 15px;
 }
-
 /*Footer*/
 .footer{
     background: #1f3251;
-    padding: 20px 50px;
+    padding: 5px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.footer ul{
+ul{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.footer li{
+li{
     list-style: none;
+    padding: 3px;
 }
-.footer a{
-    text-decoration: none;
-    display: inline-block;
-    margin:0 10px;
-}
-
-.footer img{
+.icon{
     filter:invert(1);
     max-width: 20px;
+}
+@media only screen and (max-width: 767px) {
+  body{
+      font-size: 14px;
+  }
+  header{
+      font-size: 13px;
+      width: 40%;
+  }
+  a{
+      font-size: 12px;
+      padding: 3px;
+  }
+  h1,h2{
+      font-size: 20px;
+      
+  }
+  p{
+      font-size: 12px;
+
+  }
+  .technology, .services, .testimonials, .contact{
+      padding: 20px;
+  }
+  .serviceBx{
+      width: 150px;
+      height: 150px;
+      flex-direction: column;
+
+  }
+  .redbg{
+      width: 100%;
+  }
+  .container .contentBx {
+      margin: 5px;
+      padding: 15px;
+  }
+  .inputBx{
+      margin: 5px;
+  }
+  input,textarea{
+      padding: 5px;
+      font-size: 12px;
+  }
+  .about{
+      flex-direction: column-reverse;
+  }
+  .footer{
+      padding: 5px;
+  }
+ 
+  
 }
