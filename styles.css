@@ -14,7 +14,7 @@
 } 
 body{
     font-family: 'Mukta', sans-serif;
-    color: var(--white-color);
+    color: white;
 }
 nav{
     position: fixed;
@@ -211,7 +211,7 @@ ul{
     align-items: center;
 }
 li{
-    color: var(--white-color);
+    color: white;
     list-style: none;
     padding: 3px;
 }
