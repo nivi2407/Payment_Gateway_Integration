@@ -211,6 +211,7 @@ ul{
     align-items: center;
 }
 li{
+    color: var(--white-color);
     list-style: none;
     padding: 3px;
 }
