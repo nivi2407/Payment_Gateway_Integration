@@ -2,7 +2,7 @@
 
 *TASK-3: PAYMENT GATEWAY INTEGRATION*
 
-- Created a Responsive Website using Razorpay payment gateway button in home page.
+- Created a Responsive Website using <a href="https://razorpay.com/payment-buttons/">Razorpay payment gateway button</a> in home page.
 - Razorpay button used for easy payment that accepts all payment modes.
 - Additionally, it automatically generates an invoice and dispatches it to the recipient's email.
 - This website comprises sections dedicated to providing information about the organization (About), detailing the offered services (Services), and facilitating communication through a contact form.
