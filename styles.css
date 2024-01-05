@@ -164,7 +164,7 @@ p{
     margin: 10px;
     background: var(--white-color);
 }
-blockquote, h4, li{
+blockquote, h4, footer li{
     color: var(--black-color)
 }
 h3{
