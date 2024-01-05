@@ -1,3 +1,12 @@
+:root{
+    --background-color1: #263238;
+    --background-color2: #9A3B3B;
+    --background-color3: #1f3251;
+    --background-color4: #6c8ab7;
+    --black-color: #000;
+    --white-color: #fff;
+    --gradient-color: linear-gradient(45deg, rgb(221 228 233 / 60%), rgb(25 50 71 / 60%));
+}
 *{
     margin: 0; 
     padding: 0; 
@@ -5,38 +14,38 @@
 } 
 body{
     font-family: 'Mukta', sans-serif;
+    color: var(--white-color);
 }
 nav{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #263238;
+    background: var(--background-color1);
     width: 100%;
-    padding: 15px 20px;
+    padding: 15px 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 2;
 }
 header  {
-    color: #fff;
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 1px;
 }
 a{
-    color: #fff;
+    color: var(--white-color);
     text-decoration: none;
     padding: 5px;
 }
-#nav-link:hover{
+a:hover{
     text-decoration: underline;
 }
 .home{
     position: relative;
     width: 100%;
     height: 100vh;
-    background: #111;
+    background: var(--black-color);
     display:flex;
     justify-content: center;
     align-items: center;
@@ -51,7 +60,6 @@ a{
     opacity: 0.3;
   }
 h1{
-    color: #fff;
     font-size: 40px;
 }
 .content{
@@ -67,31 +75,29 @@ h1{
     display: flex;
   }
 .redbg{
-    background-color: #9A3B3B;
+    background: var(--background-color2);
     text-align: justify;
-    padding: 40px;
+    padding: 20px;
     width: 50%;
   }
 h2{
-    color: #fff;
     font-size: 30px;
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 p{
-    color: #fff;
     font-size: 16px;
     font-weight: 300;
 }
 .imgBx1{
-    background: linear-gradient(45deg, rgb(221 228 233 / 60%), rgb(25 50 71 / 60%)),url(bg2.jpg);
+    background: var(--gradient-color),url(bg2.jpg);
     width: 50%;
     background-size: cover;
     background-position: center;
 }
 .services{
-    background:#1f3251;
+    background:var(--background-color3);
     padding: 40px;
     text-align: center;
 }
@@ -105,20 +111,20 @@ p{
 }
 .serviceBx{
     position: relative;
-    background:#fff;
     width: 250px;
     height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 100%;
-    border: 5px solid #7badcb;
+    filter: drop-shadow(6px 2px 8px var(--background-color4));
+    background: var(--white-color);
 }
 .icon1{
     max-width: 65px;
 }
 .technology{
-    background:#6c8ab7;
+    background:var(--background-color4);
     width: 100%;
     padding: 70px;
     display: flex;
@@ -137,7 +143,7 @@ p{
 .testimonials{
     position: relative;
     padding: 40px;
-    background:#1f3251;
+    background:var(--background-color3);
     text-align: center;
 }
 .container{
@@ -148,7 +154,6 @@ p{
   flex-wrap: wrap;
 }
 .container .contentBx{
-    background:#fff;
     padding: 50px 50px;
     width: 370px;
     display: flex;
@@ -157,43 +162,45 @@ p{
     text-align: left;
     font-style: italic;
     margin: 10px;
+    background: var(--white-color);
+}
+blockquote, h4{
+    color: var(--black-color)
 }
 h3{
     width: 100%;
     text-align: end;
     font-weight: 500;
-    color: #56707c;
+    color: var(--background-color4);
 }
-
 .imgBx2{
-    background: linear-gradient(45deg, rgb(221 228 233 / 60%), rgb(25 50 71 / 60%)),url(bg3.jpg);
+    background: var(--gradient-color),url(bg3.jpg);
     background-size: cover;
     background-position: center;
     width: 50%;
 }
 /*Contact form*/
-.inputBx{
-    margin-bottom: 40px;
-}
+
 input,textarea{
     width: 100%;
     background:#cbbfb5;
-    padding:10px 0;
+    padding:10px 2px;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     border: none;
-    color: #111;
+    color: var(--black-color);
+    margin: 5px;
 }
 input[type="submit"]{
     width: 130px;
     background: #cbbfb5;
-    color: #111;
+    color: var(--black-color);
     border-radius: 15px;
 }
 /*Footer*/
 .footer{
-    background: #1f3251;
-    padding: 5px 50px;
+    background: var(--background-color3);
+    padding: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -209,23 +216,16 @@ li{
 }
 .icon{
     filter:invert(1);
-    max-width: 20px;
+    max-width: 15px;
 }
 @media only screen and (max-width: 767px) {
-  body{
-      font-size: 14px;
-  }
-  header{
+  
+  header, #nav-link{
       font-size: 13px;
       width: 40%;
   }
-  a{
-      font-size: 12px;
-      padding: 3px;
-  }
   h1,h2{
       font-size: 20px;
-      
   }
   p{
       font-size: 12px;
@@ -237,8 +237,6 @@ li{
   .serviceBx{
       width: 150px;
       height: 150px;
-      flex-direction: column;
-
   }
   .redbg{
       width: 100%;
@@ -247,9 +245,6 @@ li{
       margin: 5px;
       padding: 15px;
   }
-  .inputBx{
-      margin: 5px;
-  }
   input,textarea{
       padding: 5px;
       font-size: 12px;
@@ -257,9 +252,4 @@ li{
   .about{
       flex-direction: column-reverse;
   }
-  .footer{
-      padding: 5px;
-  }
- 
-  
 }
