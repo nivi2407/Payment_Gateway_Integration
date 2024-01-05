@@ -164,7 +164,7 @@ p{
     margin: 10px;
     background: var(--white-color);
 }
-blockquote, h4{
+blockquote, h4, li{
     color: var(--black-color)
 }
 h3{
@@ -183,13 +183,13 @@ h3{
 
 input,textarea{
     width: 100%;
+    margin: 10px;
     background:#cbbfb5;
     padding:10px 2px;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     border: none;
-    color: var(--black-color);
-    margin: 5px;
+    color: var(--black-color);  
 }
 input[type="submit"]{
     width: 130px;
@@ -246,7 +246,6 @@ li{
       padding: 15px;
   }
   input,textarea{
-      padding: 5px;
       font-size: 12px;
   }
   .about{
