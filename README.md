@@ -10,9 +10,8 @@
 🚀 **Technologies Used:**
 HTML | CSS | Razorpay
 
-⚠️Disclaimer
-
-*Note: The donation button provided in this repository is for demonstration purposes only. It operates in test mode and does not process real payments. No actual money will be transferred when using this button. Please do not attempt to use real payment information.*
+⚠️> [!NOTE]
+> *The donation button provided in this repository is for demonstration purposes only. It operates in test mode and does not process real payments. No actual money will be transferred when using this button. Please do not attempt to use real payment information.*
 
 Demo video:
 
