@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <title>Payment Gateway</title>
         <link rel="stylesheet" href="styles.css">
+        <!--Google Fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&family=Mukta:wght@300;400&display=swap" rel="stylesheet">
@@ -19,15 +20,19 @@
                 <a href="#contact">Contact</a>
             </div>
         </nav>
+        
+        <!--Home Section-->
         <section class="home" id="home">
             <img src="bg.jpg" alt="Background Image">
             <div class="content" data-0-top="opacity:0;left:100px;" data-200-top="opacity:1;left:0px;">
-            <h1> Serene Haven Society </h1>
-            <p>Your commitment to making someone's life better echoes the sentiment that, unless we care deeply, positive change may remain elusive.</p>
-            <br>
-            <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HywdKUjSGWwI0t" async> </script> </form>        </div>
+                <h1> Serene Haven Society </h1>
+                <p>Your commitment to making someone's life better echoes the sentiment that, unless we care deeply, positive change may remain elusive.</p>
+                <br>
+                <!--Embed html code for payment donation button-->
+                <form> <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HywdKUjSGWwI0t" async> </script> </form>        
+            </div>
         </section>
-
+        <!--About Section-->
         <section class="about" id="about">
             <div class="redbg">
                 <h2 data-center-center="opacity:1;left:0px;"  data-0-bottom="opacity:0;left:500px;">Who we are</h2>
@@ -39,6 +44,8 @@
             </div>
             <div class="imgBx1"></div>
         </section>
+        
+        <!--Services Section-->
         <section class="services" id="services">
             <h2 class="heading" data-center-center="opacity:1;left:0px;"  data-0-bottom="opacity:0;left:500px;">Our Services</h2>
             <p>Furthering our cause is the most important goal of our organization. We seek to support, empower, and provide high quality resources to our community in a safe and secure environment. 
@@ -95,7 +102,7 @@
             </div>
             </div>
         </section>
-        
+        <!--Contact Form-->
         <section class="about" id="contact">
            <div class="redbg">
                <div class="form">
@@ -109,7 +116,7 @@
            </div>
            <div class="imgBx2"></div>
         </section>
-       
+       <!--Footer-->
         <footer class="footer">
            <p>**Done for Sparks Foundation**</p>
            <ul>
@@ -117,7 +124,7 @@
                 <li><a href="#"><img src="facebook.png" alt="Facebook Icon" class="icon"></a></li>
                 <li><a href="#"><img src="twitter.png" alt="Twitter Icon" class="icon"></a></li>
                 <li><a href="#"><img src="linkedin.png" alt="LinkedIn Icon" class="icon"></a></li>
-            </ul>
+           </ul>
         </footer>
        
    </body>
