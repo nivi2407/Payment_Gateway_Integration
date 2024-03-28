@@ -10,6 +10,10 @@
 🚀 **Technologies Used:**
 HTML | CSS | Razorpay
 
+### Disclaimer
+
+**Note:** The donation button provided in this repository is for demonstration purposes only. It operates in test mode and does not process real payments. No actual money will be transferred when using this button. Please do not attempt to use real payment information.
+
 Demo video:
 
 https://github.com/nivi2407/Payment_Gateway_Integration/assets/79712578/10cba9df-ca9e-4282-a99c-cdd23d475edc
